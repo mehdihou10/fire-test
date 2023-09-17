@@ -8,6 +8,7 @@ function App() {
     <div className="App">
     <button onClick={()=> signInWithPopup(auth,googleProvider)}>Sign in</button>
     <button onClick={()=> signOut(auth)}>Sign out</button>
+    <h1>Hello again</h1>
     </div>
   );
 }
